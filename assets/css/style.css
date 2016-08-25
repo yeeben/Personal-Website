@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color:#A9A9A9	;
 	margin-top: 90px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
@@ -323,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Separator About - Parallax Section */
 .sep {
 	background-attachment: fixed;
-	background-position: 0, 0%;
+	background-position: 50%;
 	background-repeat: no-repeat;
 	height: 600px;
 
