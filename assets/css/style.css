@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
 /*	background: url(../images/bishopspeak.jpg) no-repeat center top;*/
-    background-image: linear-gradient(to bottom,  rgba(241, 242, 181, 0.5) 0%, rgba(19, 80, 88, 0.3) 100%), url(../images/bishopspeak.jpg);
+    background-image: linear-gradient(to bottom,  rgba(241, 242, 181, 0.6) 0%, rgba(19, 80, 88, 0.5) 100%), url(../images/bishopspeak.jpg);
 /*    background-image: linear-gradient(to bottom,  rgba(218, 210, 153, 0.5) 0%, rgba(176, 218, 185, 0.5) 100%), url(../images/bishopspeak.jpg);*/
 	margin-top: 0px;
 	padding-top:120px;
