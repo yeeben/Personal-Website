@@ -52,5 +52,7 @@
 		"tabWidth": 4
 	},
 	"main": "index.js",
-	"devDependencies": {}
+	"devDependencies": {
+		"@babel/traverse": "^7.24.8"
+	}
 }
