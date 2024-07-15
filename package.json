@@ -1,12 +1,8 @@
 {
-	"name": "reactfolio",
+	"name": "benhyee",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
-	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
-	},
+	"author": "Tharindu N. Madhusanka <mail@tharindu.dev> (https://tharindu.dev)",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
@@ -54,5 +50,7 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
-	}
+	},
+	"main": "index.js",
+	"devDependencies": {}
 }
