@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -36,7 +37,7 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side">
+							<div className="about-left-side">
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
@@ -46,7 +47,7 @@ const About = () => {
 								</div>
 							</div>
 
-							<div className="about-left-side">
+							<div className="about-right-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
