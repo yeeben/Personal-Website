@@ -13,30 +13,54 @@ const INFO = {
 	},
 
 	homepage: {
-		title: ["Firmware Engineer", "Climber", "Full Stack Web Developer", "Electrical Engineer", "IOS Developer" , "Tennis Player"],
+		title: [
+			"Firmware Engineer", "Climber", 
+			"Full Stack Web Developer", "Electrical Engineer", 
+			"IOS Developer" , "Tennis Player", "Pickleball Player",
+			"Dog Dad", "Gamer"
+
+		],
 		description:
-			"Homepage"
+			`My name is Benjamin Yee, and welcome to my portfolio page!
+			You will find all the projects I have worked on, my resume, and a little bit about me.
+			`
 	},
 
 	about:{
-		title: "Hey! My name is Benjamin Yee",
+		title: "Hey! I'm Benjamin Yee!",
 		description: "About",
 		sections: {
 			introduction: {
-				title: "Introduction",
-				content: "I am a proud Los Angeles native, having grown up in the beautiful town of San Marino, CA. I share my life with my adorable Australian Shepherd named Remy, who keeps me active and entertained."
-			},
-			education: {
-				title: "Education",
-				content: "I graduated with a degree in Electrical Engineering from Cal Poly San Luis Obispo."
+				title: "",
+				content: `
+					I am a proud Los Angeles native, having grown up in the beautiful town of San Marino, CA. 
+					Growing up surrounded by exceptional talent, I quickly learned the importance of curiosity and humility. 
+					Embracing a humble attitude opened doors to new opportunities and experiences that I would have never imagined.
+
+				`
 			},
 			career: {
 				title: "Career Journey",
-				content: "My career has taken me on an exciting journey through various fields of technology. I started with Electrical Engineering, transitioned to Embedded Systems, moved into Web Full Stack development, and most recently, ventured into iOS development. I spent four years living and working in Seattle for Amazon Go, where I gained invaluable experience and honed my skills in developing innovative technologies."
+				content: `
+				My career has taken me on an exciting journey through various fields and roles in technology.
+				I graduated from Cal Poly San Luis Obispo with a degree in Electrical Engineering and worked at Amazon Go in Seattle.
+				During my time, I got to explore various EE fields, including manufacturing, Firmware development, and hardware design.
+				I left in 2024 to move back to LA and grow my skills in various stacks of software development.
+				I had the opportunity to learn ML/AI best practices and freelance as an full-stack IOS developer to build my very own app.
+				For more technical details, checkout my projects page or download my resume!
+				`
 			},
 			hobbies: {
 				title: "Hobbies and Interests",
-				content: "Outside of work, I am an avid tennis player, pickleball enthusiast, and climbing hobbyist. These activities not only keep me fit but also provide a perfect balance to my tech-focused career."
+				content: `
+					Outside of work, I am very active with my hobbies. 
+					I climb at least twice a week at a V9 | 5.12C level, mainly at Hollywood Boulders and The Post in Pasadena.
+					I grew up playing tennis and still actively rally at a USTA 4.5 level. 
+					Recently, I picked up Pickleball, which I enjoy as an accessible and social sport. 
+					Additionally, I have a dog named Remy, who I've raised since she was a puppy. 
+					She kept me sane through the pandemic and is a wonderful companion. 
+					These activities not only keep me fit but also provide a perfect balance to my tech-focused career.
+				`
 			}
 		}
 	},

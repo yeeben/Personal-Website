@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
 import NavBar from "../components/common/navBar";
@@ -8,7 +7,6 @@ import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/about.css";
 
@@ -17,14 +15,9 @@ const About = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
-
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO?.description} />
-			</Helmet>
+
 
 			<div className="page-content">
 				<NavBar active="about" />
@@ -41,10 +34,15 @@ const About = () => {
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+								{Object.keys(INFO.about.sections).map((key) => (
+									<div key={key} className="section">
+										<h2>{INFO.about.sections[key].title}</h2>
+										<p>{INFO.about.sections[key].content}</p>
+									</div>
+								))}
 								</div>
+								
 							</div>
 
 							<div className="about-right-side">
