@@ -69,10 +69,10 @@ const INFO = {
 		{
 			title: "Loadcell Data Compression Algorithm",
 			description:
-				"Developed a compression and encoding algorithms that are executed on wireless IoT devices to save bandwidth",
+				"Developed a compression and encoding algorithm that are executed on wireless IoT devices to save bandwidth",
 			logo: "loadcell.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11940320",
 		},
 
 		{
@@ -85,19 +85,19 @@ const INFO = {
 		},
 
 		{
-			title: "",
+			title: "Betterment LLM",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Developed an LLM content advisor using chat log data from suicide hotline conversations.",
+			logo: "Betterment.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 4",
+			title: "Amazon Go",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Developed sensor drivers for IoT infrastructure for Amazon Go.",
+			logo: "AmazonGo.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
