@@ -36,6 +36,48 @@ const PROJECT_INFO = {
 				"Climbing can have projects too!",
 			logo: "climbing.png",
 		},
+
+		{
+			title: "Bouldering",
+			description:
+				"Climbing can have projects too!",
+			logo: "climbing.png",
+		},
+
+		{
+			title: "Bouldering",
+			description:
+				"Climbing can have projects too!",
+			logo: "climbing.png",
+		},
+
+		{
+			title: "Bouldering",
+			description:
+				"Climbing can have projects too!",
+			logo: "climbing.png",
+		},
+
+		{
+			title: "Bouldering",
+			description:
+				"Climbing can have projects too!",
+			logo: "climbing.png",
+		},
+
+		{
+			title: "Bouldering",
+			description:
+				"Climbing can have projects too!",
+			logo: "climbing.png",
+		},
+
+		{
+			title: "Bouldering",
+			description:
+				"Climbing can have projects too!",
+			logo: "climbing.png",
+		},
 	],
 }
 // function project_1() {

@@ -145,7 +145,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<AllProjects />
+							<AllProjects maxProjects={6}/>
 						</div>
 
 						<div className="page-footer">

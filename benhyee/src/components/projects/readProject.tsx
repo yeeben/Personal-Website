@@ -6,25 +6,23 @@ import NavBar from "../common/navBar.tsx";
 import Footer from "../common/footer.tsx";
 import Logo from "../common/logo.tsx";
 
-import INFO from "../../data/user.tsx";
-
-import "../../pages/styles/readArticle.css";
+import "../../pages/styles/readProject.css";
 import PROJECT_INFO from "../../data/projects.tsx";
 
-let ArticleStyle = styled.div``;
+let ProjectStyle = styled.div``;
 
-const ReadArticle = () => {
+const ReadProject = () => {
 	const navigate = useNavigate();
 	const { slug } = useParams();
 
-	const article = PROJECT_INFO.projects[slug - 1];
+	const project = PROJECT_INFO.projects[slug - 1];
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, [article]);
+	}, [project]);
 
-	ArticleStyle = styled.div`
-		${article().style}
+	ProjectStyle = styled.div`
+		${project().style}
 	`;
 
 	return (
@@ -40,28 +38,19 @@ const ReadArticle = () => {
 					</div>
 
 					<div className="read-article-container">
-						<div className="read-article-back">
-							<img
-								src="../back-button.png"
-								alt="back"
-								className="read-article-back-button"
-								onClick={() => navigate(-1)}
-							/>
-						</div>
-
 						<div className="read-article-wrapper">
 							<div className="read-article-date-container">
 								<div className="read-article-date">
-									{article().date}
+									{project().date}
 								</div>
 							</div>
 
 							<div className="title read-article-title">
-								{article().title}
+								{project().title}
 							</div>
 
 							<div className="read-article-body">
-								<ArticleStyle>{article().body}</ArticleStyle>
+								<ProjectStyle>{project().body}</ProjectStyle>
 							</div>
 						</div>
 					</div>
@@ -74,4 +63,4 @@ const ReadArticle = () => {
 	);
 };
 
-export default ReadArticle;
+export default ReadProject;
