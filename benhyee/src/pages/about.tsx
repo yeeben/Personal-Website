@@ -22,7 +22,7 @@ const About = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{`About | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
+				<meta name="description" content={currentSEO?.description} />
 			</Helmet>
 
 			<div className="page-content">

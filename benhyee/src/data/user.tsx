@@ -8,12 +8,12 @@ const INFO = {
 
 	socials: {
 		github: "https://github.com/yeeben",
-		linkedin: "www.linkedin.com/in/benjamin-yee-hong",
+		linkedin: "https://www.linkedin.com/in/benjamin-yee-hong",
 		instagram: "https://www.instagram.com/crazybennyboy/",
 	},
 
 	homepage: {
-		title: "Embedded Systems Engineer | Full Stack Developer | Electrical Engineer",
+		title: ["Firmware Engineer", "Climber", "Full Stack Web Developer", "Electrical Engineer", "IOS Developer" , "Tennis Player"],
 		description:
 			"Homepage"
 	},

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { ReactTyped } from "react-typed";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -83,7 +84,12 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									<ReactTyped
+                                        strings={INFO.homepage.title}
+                                        typeSpeed={50}
+                                        backSpeed={40}
+                                        loop
+                                    />
 								</div>
 
 								<div className="subtitle homepage-subtitle">

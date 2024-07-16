@@ -25,6 +25,7 @@
 
 .homepage-title {
 	width: 85% !important;
+	white-space: nowrap;
 }
 
 .homepage-subtitle {
@@ -97,13 +98,13 @@
 	}
 
 	.homepage-title {
-		width: 100% !important;
+		width: auto;
 		margin-top: 20px;
 		order: 2;
 	}
 
 	.homepage-subtitle {
-		width: 100% !important;
+		width: auto;
 		margin-top: 10px;
 		order: 3;
 	}
