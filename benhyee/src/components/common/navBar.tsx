@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
 
-const NavBar = (props) => {
+const NavBar = (props: any) => {
 	const { active } = props;
 
 	return (

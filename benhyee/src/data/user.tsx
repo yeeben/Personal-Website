@@ -3,22 +3,19 @@ const INFO = {
 		title: "Portfolio for Benhyee",
 		name: "Benjamin Yee",
 		email: "benjaminhyee@gmail.com",
-		logo: "../logo.png",
+		logo: "../logo.jpeg",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/yeeben",
+		linkedin: "www.linkedin.com/in/benjamin-yee-hong",
+		instagram: "https://www.instagram.com/crazybennyboy/",
 	},
 
 	homepage: {
 		title: "Embedded Systems Engineer | Full Stack Developer | Electrical Engineer",
 		description:
-			""
+			"Homepage"
 	},
 
 	about: {
@@ -26,7 +23,7 @@ const INFO = {
 		description:
 			"About"
 	},
-	
+
 	projects: [
 		{
 			title: "Project 1",
