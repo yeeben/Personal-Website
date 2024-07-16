@@ -63,54 +63,7 @@ const INFO = {
 				`
 			}
 		}
-	},
-
-	projects: [
-		{
-			title: "Loadcell Data Compression Algorithm",
-			description:
-				"Developed a compression and encoding algorithm that are executed on wireless IoT devices to save bandwidth",
-			logo: "loadcell.png",
-			linkText: "View Project",
-			link: "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11940320",
-		},
-
-		{
-			title: "LiveBall - Tennis App",
-			description:
-				"Developed an iOS app to automate a new tennis format designed in response to the growing popularity of pickleball.",
-			logo: "Liveball.jpeg",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Betterment LLM",
-			description:
-				"Developed an LLM content advisor using chat log data from suicide hotline conversations.",
-			logo: "Betterment.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Amazon Go",
-			description:
-				"Developed sensor drivers for IoT infrastructure for Amazon Go.",
-			logo: "AmazonGo.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-	],
+	}
 };
 
 export default INFO;
