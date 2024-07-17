@@ -11,7 +11,7 @@ const ProjectTile = (props: ProjectType) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-			<a href={`projects/${link}`} target="_blank" rel="noopener noreferrer">
+			<a href={`projects/${link}`} rel="noopener noreferrer">
 
 				<div className="project-container">
 					<div className="project-logo">
