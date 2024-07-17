@@ -1,3 +1,4 @@
+import React from "react";
 const PROJECT_INFO = {
 	projects: [
 		{
@@ -8,6 +9,7 @@ const PROJECT_INFO = {
 			linkText: "View Project Details",
 			link: "ccwd",
 			downloadLink:"https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11940320",
+			content: ccwd()
 		},
 
 		{
@@ -17,6 +19,7 @@ const PROJECT_INFO = {
 			logo: "Liveball.jpeg",
 			linkText: "View Project Details",
 			link: "liveball",
+			content: liveball()
 		},
 
 		{
@@ -26,6 +29,7 @@ const PROJECT_INFO = {
 			logo: "Betterment.png",
 			linkText: "View Project Details",
 			link: "betterment",
+			content: betterment()
 		},
 
 		{
@@ -35,6 +39,7 @@ const PROJECT_INFO = {
 			logo: "AmazonGo.png",
 			linkText: "View Project Details",
 			link: "amazongo",
+			content: amazongo()
 		},
 
 		{
@@ -44,9 +49,11 @@ const PROJECT_INFO = {
 			logo: "climbing.png",
 			linkText: "View Project Details",
 			link: "bouldering",
+			content: bouldering()
 		}
 	],
 }
+
 function ccwd() {
 	return {
 		date: "7 May 2023",
@@ -82,92 +89,159 @@ function ccwd() {
 					/>
 				</div>
 			</React.Fragment>
-		),
-	};
+		)
+	}
 }
-
 function liveball() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "The Benefits of Cloud Computing",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
+			"The Benefits of Cloud Computing",
 			"Tharindu",
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<div className="paragraph">Content of article 1</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
 			</React.Fragment>
-		),
-	};
+		)
+	}
 }
-
 function betterment() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "The Benefits of Cloud Computing",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
+			"The Benefits of Cloud Computing",
 			"Tharindu",
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<div className="paragraph">Content of article 1</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
 			</React.Fragment>
-		),
-	};
+		)
+	}
 }
-
 function amazongo() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "The Benefits of Cloud Computing",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
+			"The Benefits of Cloud Computing",
 			"Tharindu",
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<div className="paragraph">Content of article 1</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
 			</React.Fragment>
-		),
-	};
+		)
+	}
 }
-
 function bouldering() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "The Benefits of Cloud Computing",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
+			"The Benefits of Cloud Computing",
 			"Tharindu",
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<div className="paragraph">Content of article 1</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
 			</React.Fragment>
-		),
-	};
+		)
+	}
 }
-
 export default PROJECT_INFO;
