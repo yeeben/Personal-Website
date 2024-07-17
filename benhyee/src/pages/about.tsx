@@ -33,14 +33,13 @@ const About = () => {
 									{INFO.about.title}
 								</div>
 								<div className="subtitle about-subtitle">
-								{Object.keys(INFO.about.sections).map((key) => (
+								{Object.entries(INFO.about.sections).map(([key, section]) => (
 									<div key={key} className="section">
-										<h2>{INFO.about.sections[key].title}</h2>
-										<p>{INFO.about.sections[key].content}</p>
+										<h2>{section.title}</h2>
+										<p>{section.content}</p>
 									</div>
-								))}
+									))}								
 								</div>
-								
 							</div>
 
 							<div className="about-right-side">
