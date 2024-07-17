@@ -10,15 +10,12 @@ import { ProjectType } from "../../data/projectsInfo";
 
 import "./styles/project.css";
 
-let ProjectReadStyle = styled.div``;
-
-
 const ReadProject = (props: { project: ProjectType }) => {
 
 	const { project } = props;
     const navigate = useNavigate();
 
-	ProjectReadStyle = styled.div`
+	const ProjectReadStyle = styled.div`
 		${project?.content?.style}
 	`;
 
