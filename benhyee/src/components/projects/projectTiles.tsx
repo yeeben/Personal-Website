@@ -21,7 +21,8 @@ const AllProjects: React.FC<AllProjectsProps> = ({ maxProjects }) => {
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}
-					/>
+						downloadLink={project.downloadLink ? project.downloadLink : undefined}
+						/>
 				</div>
 			))}
 		</div>
