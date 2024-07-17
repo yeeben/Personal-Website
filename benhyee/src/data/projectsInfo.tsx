@@ -15,7 +15,7 @@ const PROJECT_INFO = {
 				"Developed an iOS app to automate a new tennis format designed in response to the growing popularity of pickleball.",
 			logo: "Liveball.jpeg",
 			linkText: "View Project Details",
-			link: "github.com",
+			link: "liveball",
 		},
 
 		{
@@ -24,7 +24,7 @@ const PROJECT_INFO = {
 				"Developed an LLM content advisor using chat log data from suicide hotline conversations.",
 			logo: "Betterment.png",
 			linkText: "View Project Details",
-			link: "github.com",
+			link: "betterment",
 		},
 
 		{
@@ -33,7 +33,7 @@ const PROJECT_INFO = {
 				"Developed sensor drivers for IoT infrastructure for Amazon Go.",
 			logo: "AmazonGo.png",
 			linkText: "View Project Details",
-			link: "github.com",
+			link: "amazongo",
 		},
 
 		{
@@ -42,7 +42,7 @@ const PROJECT_INFO = {
 				"Climbing can have projects too!",
 			logo: "climbing.png",
 			linkText: "View Project Details",
-			link: "github.com",
+			link: "bouldering",
 
 		},
 

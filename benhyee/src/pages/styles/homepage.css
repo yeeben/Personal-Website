@@ -31,6 +31,13 @@
 .homepage-subtitle {
 	width: 85% !important;
 }
+.homepage-subsection-title {
+	color: var(--primary-color);
+	font-family: var(--secondary-font);
+	font-size: 40px;
+	font-weight: 600;
+	width: 80%;
+}
 
 .homepage-first-area-right-side {
 	display: flex;

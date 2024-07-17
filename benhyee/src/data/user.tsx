@@ -46,8 +46,8 @@ const INFO = {
 				I graduated from Cal Poly San Luis Obispo with a degree in Electrical Engineering and worked at Amazon Go in Seattle.
 				During my time, I got to explore various EE fields, including manufacturing, Firmware development, and hardware design.
 				I left in 2024 to move back to LA and grow my skills in various stacks of software development.
-				I had the opportunity to learn ML/AI best practices and freelance as an full-stack IOS developer to build my very own app.
-				For more technical details, checkout my projects page or download my resume!
+				I had the opportunity to learn ML/AI industry standards and freelance as an full-stack IOS developer to build my very own app.
+				For more technical details, check out my projects page or download my resume!
 				`
 			},
 			hobbies: {

@@ -4,12 +4,15 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/project.css";
 
-const ProjectTile = (props: { 
-	logo: string; 
-	title: string; 
-	description: string; 
-	linkText: string; 
-	link: string; }) => {
+interface Project {
+	title: string;
+	description: string;
+	logo: string;
+	linkText: string;
+	link: string;
+}
+
+const ProjectTile = (props: Project) => {
 	const { logo, title, description, linkText, link } = props;
 
 	return (

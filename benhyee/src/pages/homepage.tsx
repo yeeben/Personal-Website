@@ -144,7 +144,11 @@ const Homepage = () => {
 							</a>
 						</div>
 
+
 						<div className="homepage-projects">
+							<h2 className="homepage-subsection-title">
+								Highlighted Projects
+							</h2>
 							<ProjectTiles maxProjects={6}/>
 						</div>
 
