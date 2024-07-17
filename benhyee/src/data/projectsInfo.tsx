@@ -1,4 +1,25 @@
 import React from "react";
+
+export type ProjectType = {
+	title: string;
+	description: string;
+	logo: string;
+	linkText: string;
+	link: string;
+	downloadLink?: string;
+	content?: ProjectContent;
+  };
+
+export type ProjectContent = {
+	date: string;
+	title: string;
+	description: string;
+	keywords: string[];
+	style: string;
+	body: React.ReactNode;
+  };
+
+
 const PROJECT_INFO = {
 	projects: [
 		{

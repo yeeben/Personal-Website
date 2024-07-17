@@ -1,19 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { ProjectType } from "../../data/projectsInfo";
 
 import "./styles/project.css";
 
-export interface Project {
-	title: string;
-	description: string;
-	logo: string;
-	linkText: string;
-	link: string;
-	downloadLink?: string;
-}
-
-const ProjectTile = (props: Project) => {
+const ProjectTile = (props: ProjectType) => {
 	const { logo, title, description, linkText, link, downloadLink } = props;
 
 	return (

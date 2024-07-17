@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useNavigate } from 'react-router-dom';
 import styled from "styled-components";
 
@@ -6,21 +6,20 @@ import NavBar from "../common/navBar";
 import Footer from "../common/footer";
 import Logo from "../common/logo";
 
-import { Project } from "../../components/projects/projectTile";
+import { ProjectType } from "../../data/projectsInfo";
 
-import PROJECT_INFO from "../../data/projectsInfo";
 import "./styles/project.css";
 
 let ProjectReadStyle = styled.div``;
 
 
-const ReadProject = (props: Project) => {
+const ReadProject = (props: { project: ProjectType }) => {
 
 	const { project } = props;
     const navigate = useNavigate();
 
 	ProjectReadStyle = styled.div`
-		${project.content.style}
+		${project?.content?.style}
 	`;
 
 	return (
@@ -46,11 +45,11 @@ const ReadProject = (props: Project) => {
 						</div>
 						<div className="read-project-wrapper">
 							<div className="title read-project-title">
-								{project.content.title}
+								{project?.content?.title}
 							</div>
 
 							<div className="read-project-body">
-								<ProjectReadStyle>{project.content.body}</ProjectReadStyle>
+								<ProjectReadStyle>{project?.content?.body}</ProjectReadStyle>
 							</div>
 						</div>
 					</div>
