@@ -23,7 +23,7 @@ function App() {
 				{PROJECT_INFO.projects.map((project, index) => (
 					<Route
 					key={index}
-					path={`/projects/${project.link}`}
+					path={`/${project.link}`}
 					element={<ReadProject project={project} />}
 					/>
 				))}
