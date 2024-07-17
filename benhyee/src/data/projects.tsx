@@ -1,4 +1,3 @@
-import React from "react";
 const PROJECT_INFO = {
 	projects: [
 		{
@@ -6,6 +5,7 @@ const PROJECT_INFO = {
 			description:
 				"Developed a compression and encoding algorithm that are executed on wireless IoT devices to save bandwidth",
 			logo: "loadcell.png",
+			linkText: "View Patent",
 			link: "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11940320",
 		},
 
@@ -14,6 +14,8 @@ const PROJECT_INFO = {
 			description:
 				"Developed an iOS app to automate a new tennis format designed in response to the growing popularity of pickleball.",
 			logo: "Liveball.jpeg",
+			linkText: "View Project Details",
+			link: "github.com",
 		},
 
 		{
@@ -21,6 +23,8 @@ const PROJECT_INFO = {
 			description:
 				"Developed an LLM content advisor using chat log data from suicide hotline conversations.",
 			logo: "Betterment.png",
+			linkText: "View Project Details",
+			link: "github.com",
 		},
 
 		{
@@ -28,6 +32,8 @@ const PROJECT_INFO = {
 			description:
 				"Developed sensor drivers for IoT infrastructure for Amazon Go.",
 			logo: "AmazonGo.png",
+			linkText: "View Project Details",
+			link: "github.com",
 		},
 
 		{
@@ -35,6 +41,9 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
+
 		},
 
 		{
@@ -42,6 +51,9 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
+
 		},
 
 		{
@@ -49,6 +61,9 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
+
 		},
 
 		{
@@ -56,6 +71,8 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
 		},
 
 		{
@@ -63,6 +80,9 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
+
 		},
 
 		{
@@ -70,6 +90,9 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
+
 		},
 
 		{
@@ -77,6 +100,9 @@ const PROJECT_INFO = {
 			description:
 				"Climbing can have projects too!",
 			logo: "climbing.png",
+			linkText: "View Project Details",
+			link: "github.com",
+
 		},
 	],
 }

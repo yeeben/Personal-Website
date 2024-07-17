@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { Link, Element, animateScroll as scroll } from 'react-scroll';
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";

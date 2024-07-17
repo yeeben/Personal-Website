@@ -28,7 +28,7 @@ const INFO = {
 
 	about:{
 		title: "Hey! I'm Benjamin Yee!",
-		description: "About",
+		description: "About Page",
 		sections: {
 			introduction: {
 				title: "",
@@ -65,5 +65,6 @@ const INFO = {
 		}
 	}
 };
+
 
 export default INFO;

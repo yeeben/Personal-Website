@@ -5,12 +5,9 @@ import INFO from "../../data/user";
 
 import "./styles/logo.css";
 
-const Logo = (props) => {
-	let { width, link } = props;
+const Logo = (props: { width: number; link?: boolean; }) => {
+	const { width, link=true} = props;
 
-	if (link === undefined) {
-		link = true;
-	}
 
 	const imageElement = (
 		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
