@@ -20,10 +20,9 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
-				{PROJECT_INFO.projects.map((project, index) => (
+				{PROJECT_INFO.projects.map((project) => (
 					<Route
-					key={index}
-					path={`/${project.link}`}
+					path={`/projects/${project.link}`}
 					element={<ReadProject project={project} />}
 					/>
 				))}

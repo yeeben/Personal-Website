@@ -3,14 +3,11 @@ import React from "react";
 export function ccwd() {
 	return {
 		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		title: "Loadcell Data Compression Algorithm",
 		description:
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+"           Loadcell Data Compression Algorithm"
 		],
 		style: `
 				.article-content {
