@@ -1,6 +1,6 @@
 
-import Project from "./project";
-import PROJECT_INFO from "../../data/projects";
+import ProjectTile from "./projectTile";
+import PROJECT_INFO from "../../data/projectsInfo";
 import "./styles/allProjects.css";
 
 interface AllProjectsProps {
@@ -15,7 +15,7 @@ const AllProjects: React.FC<AllProjectsProps> = ({ maxProjects }) => {
 		<div className="all-projects-container">
 			{projectsToDisplay.map((project, index) => (
 				<div className="all-projects-project" key={index}>
-					<Project
+					<ProjectTile
 						logo={project.logo}
 						title={project.title}
 						description={project.description}

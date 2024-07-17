@@ -12,7 +12,7 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import AllProjects from "../components/projects/allProjects";
+import ProjectTiles from "../components/projects/projectTiles";
 
 import INFO from "../data/user";
 
@@ -50,7 +50,7 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const logoStyle = {
+	const logoStyle: React.CSSProperties= {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
 		top: stayLogo ? "3vh" : "auto",
@@ -145,7 +145,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<AllProjects maxProjects={6}/>
+							<ProjectTiles maxProjects={6}/>
 						</div>
 
 						<div className="page-footer">

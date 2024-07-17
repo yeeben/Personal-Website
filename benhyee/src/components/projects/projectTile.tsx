@@ -4,7 +4,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/project.css";
 
-const Project = (props: { 
+const ProjectTile = (props: { 
 	logo: string; 
 	title: string; 
 	description: string; 
@@ -36,4 +36,4 @@ const Project = (props: {
 	);
 };
 
-export default Project;
+export default ProjectTile;

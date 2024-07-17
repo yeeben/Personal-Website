@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import AllProjects from "../components/projects/allProjects";
+import ProjectTiles from "../components/projects/projectTiles";
 
 import "./styles/projects.css";
 
@@ -39,7 +39,7 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
-							<AllProjects />
+							<ProjectTiles />
 						</div>
 					</div>
 					<div className="page-footer">
