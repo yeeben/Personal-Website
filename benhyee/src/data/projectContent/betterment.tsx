@@ -25,10 +25,6 @@ export function betterment() {
 			<React.Fragment>
 				<div className="article-content">
 						<iframe src="https://www.loom.com/embed/d8b976ada37f4ce1848f77b870f510bc?sid=7ac54dab-8124-4269-bcbf-dfd4e16c7af2" 
-						frameborder="0" 
-						webkitallowfullscreen 
-						mozallowfullscreen 
-						allowfullscreen 
 						style={{ width: '900px', height: '600px', position: 'relative' }}>
 						</iframe>
 				</div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { InstagramEmbed } from 'react-social-media-embed';
 
 export function bouldering() {
 	return {
@@ -23,14 +24,24 @@ export function bouldering() {
 				`,
 		body: (
 			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
+				<div style={{ 
+				display: 'grid', 
+				gridTemplateColumns: 'repeat(auto-fit, minmax(328px, 1fr))', 
+				gap: '16px', 
+				justifyItems: 'center' 
+				}}>
+                    <div style={{ height: '500px', overflow: 'hidden' }}>
+                        <InstagramEmbed url="https://www.instagram.com/p/CkUy9lVusXP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={328} />
+                    </div>
+                    <div style={{ height: '500px', overflow: 'hidden' }}>
+                        <InstagramEmbed url="https://www.instagram.com/p/CRcqXB0jvXJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={328} />
+                    </div>
+                    <div style={{ height: '500px', overflow: 'hidden' }}>
+                        <InstagramEmbed url="https://www.instagram.com/reel/CbWkXnKDKqB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={328} />
+                    </div>
+                    <div style={{ height: '500px', overflow: 'hidden' }}>
+                        <InstagramEmbed url="https://www.instagram.com/p/CTwEMJ2D2R1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={328} />
+                    </div>				</div>
 			</React.Fragment>
 		)
 	}
